@@ -8,7 +8,7 @@ def funcion(x):
     p = 0.2986
     C = 0
     Q = (0.9697) * (-0.9697)
-    return ((-A/p) * np.exp(-(x/p))) - ((-6*C)/(x**7)) + ((-Q)/(x**2))
+    return ((-A/p) * np.exp(-(x/p))) - ((-6*C)/(x**7)) + ((-Q)/(x**2)) #Esta es la funcion para calcular los puntos criticos
 # Definiremos los datos inciales que son los extremos (dos) en los cuales se calculará la raíz, en donde usaremos una variable float,
 # pues permite representar datos positivos y negativos decimales.
 a = 1
