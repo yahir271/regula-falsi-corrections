@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 
 # Definiremos la función
 def funcion(x):
+    #Los datos fueron modificados para cada interaccion
     A = 2272.741
     p = 0.2986
     C = 0
